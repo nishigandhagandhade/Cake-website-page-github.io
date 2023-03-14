@@ -1,0 +1,119 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+/* div all-content */
+.all-content{
+    background-color:#6c3b0a
+}
+/* navbar  */
+.navbar{
+     position: fixed;
+     z-index: 1000;
+     width: 99vw;
+     background-color:#83470c
+}
+.navbar-brand{
+     color: white !important;
+     font-size: 2.5rem;
+}
+.nav-link{
+     color: white !important;
+     font-size: 1.2rem;
+     font-weight: bold; 
+     transition: all ease .5s;   
+}
+.nav-link:hover{
+     background-color: rgba(161,109,14,1);
+     border-radius: 5px;
+}
+/* carousal */
+.carousel-item img{
+     height: 88vh;
+}
+/* catagary  */
+.Catagary{
+     border: 1px solid #6c3b0a;
+    background-color: #ad5b09;
+}
+.Catagary-cols{
+      /* border: 1px solid green;  */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.Catagary-cols .card img{
+     height: 16rem;
+}
+.Catagary-cols .card{
+     transition: all ease .5s;
+     color: white;
+     background-color: #6c3b0a;
+}
+.Catagary-cols .card:hover{
+     cursor: pointer;
+     box-shadow: 10px 20px 5px black;
+     margin-top: -5rem;
+     opacity: .6;
+}
+.h1{
+     border-bottom: 1px solid black;
+     color: black;   
+}
+/* Birthday  */
+.Birthday-cols{
+     /* border: 1px solid black;  */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.Birthday-cols .card img{
+     height: 20rem;
+     width: 20rem;
+     box-shadow: 10px 10px 5px black;    
+}
+/* welding cake */
+.Welding-cols{
+     /* border: 1px solid green; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.Welding-cols .card img{
+     height: 20rem;
+     width: 20rem;
+     box-shadow: 10px 10px 5px black ;
+}
+/* cup container  */
+.Cup-Cake-cols{
+     /* border: 1px solid green; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.Cup-Cake-cols .card img{
+     height: 20rem;
+     width: 20rem;
+     box-shadow: 10px 10px 5px black ;
+}
+/* abouts  */
+.inner{
+     /* border: 1px solid green; */
+     height: 50vh;
+}
+.inner-Abouts{
+     /* border: 1px solid green; */
+     height: 40vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.inner-Abouts img{
+     height: 250px;
+     width: 250px;
+     /* border: 1px solid red; */
+}
+
+
+
